@@ -1,0 +1,71 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    /* set left margin to 40px and the rest to 5px */
+    margin: 5px 5px 5px 40px;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    background-color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif; 
+    color: #6a6a6a;
+    font-size: 14px; 
+    /* set the space between lines to 1.5 times font size */
+    line-height: 1.5em;
+}
+
+/* Style the header */
+header {
+    background-color: #f2f0f0;; /* HTML crimson color for header background */
+    color: #fff; /* White text color for header */
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #c00; 
+}
+
+nav ul {
+    list-style: none;
+
+    padding-bottom: 40px;
+}
+
+nav ul li {
+    display: inline;
+    /* margin-right: 10px; */
+}
+
+nav a {
+    color: #808080; 
+    text-decoration: none;
+}
+
+/* Style sections */
+section {
+    padding: 5px;
+    background-color: #f2f0f0;;
+}
+
+h2 {
+    font-size: 18px;
+    color: #c00; /* HTML crimson color for section titles */
+    text-transform: lowercase;
+}
+
+/* Style the footer */
+footer {
+    background-color: #f2f0f0; /* HTML crimson color for footer background */
+    color: #808080; /* White text color for footer */
+    text-align: left;
+    padding: 10px;
+}
+
+.word-wrap {
+    word-wrap: break-word;
+    max-width: 75ch; /* Adjust as needed. Paul Graham style: 70ch*/
+}
